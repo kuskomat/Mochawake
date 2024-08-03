@@ -1,4 +1,4 @@
-package com.mochawake.entity;
+package com.mochawake.model.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.JoinColumn;

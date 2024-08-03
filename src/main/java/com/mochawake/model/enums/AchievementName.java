@@ -1,4 +1,4 @@
-package com.mochawake.enums;
+package com.mochawake.model.enums;
 
 public enum AchievementName {
     BEGINNER_COOK,

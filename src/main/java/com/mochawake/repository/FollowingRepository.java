@@ -1,7 +1,7 @@
 package com.mochawake.repository;
 
 
-import com.mochawake.entity.Following;
+import com.mochawake.model.entity.Following;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
