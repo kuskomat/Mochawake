@@ -1,0 +1,259 @@
+body {
+    background: #ab816b;
+
+}
+
+
+.main-nav {
+    background: #805e4c;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.main-nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-nav ul li {
+    /*padding: 1em;*/
+    text-align: center;
+}
+
+.nav-list>li:nth-of-type(1) , .nav-list>li:nth-of-type(2), .nav-list>li:nth-of-type(3) , .nav-list>li:nth-of-type(4) {
+    padding: 1em;
+
+}
+
+
+
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 1em;
+}
+
+
+.nav-list {
+    width: 100%;
+    flex: 2 2 auto;
+}
+
+.media {
+    display: flex;
+    width: 100%;
+    flex: 0 2 auto;
+}
+
+.media ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.media a {
+}
+
+.media a img {
+    height: 5em;
+    width: auto;
+    margin: 1em 1em 1em 5em;
+}
+
+
+.search-container {
+    /*background: green;*/
+    /*border: 1px solid black;*/
+    /*width: 100%;*/
+    flex: 1 1 100%;
+}
+
+
+.search-container input {
+    border-radius: 2em;
+    border: none;
+    background: #ab816b;
+    width: 100%;
+    padding: 1em;
+    margin: 0 auto;
+}
+
+
+.login , .signup {
+    background: #402a1e;
+    margin: 1em;
+    border-radius: 2em;
+    flex: 2 1 100%;
+
+}
+
+.
+
+    .account .account-button {
+        padding: 2em;
+        margin: 2em;
+    }
+
+
+.account>a {
+    background: #402a1e;
+    padding: 1em 2em;
+    border-radius: 2em;
+    position: relative;
+
+}
+
+
+
+.login  {
+    background: none;
+    border: 1px solid white;
+
+
+}
+
+
+
+/*ul .drop-down ul {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+
+.nav-list {
+    text-wrap: none;
+}
+
+.nav-list list a {
+    width: 100%;
+    text-align: center;
+    text-wrap: none;
+
+}
+
+
+.login , .signup {
+    width: 100%;
+}
+
+
+.account ul {
+    /*display: flex;*/
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*width: 100%;*/
+    /*background: green;*/
+    background: #805e4c;
+    position: absolute;
+    top: 7.2em;
+    right: 6em;
+    border-bottom-left-radius:  2em;
+    border-bottom-right-radius: 2em ;
+}
+
+.nav-list .account:focus-within ul {
+    display: block;
+}
+
+
+.account ul li {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+
+}
+
+.account ul li a:hover {
+    color: white;
+    border: 1px solid white;
+
+}
+
+.account ul li>a{
+    /*width: 100%;*/
+    border: 1px solid #402a1e;
+    border-radius: 2em;
+    padding: 1em 1.4em;
+    color: #402a1e;
+    /*flex: 1 1 100%;*/
+}
+
+.account ul>li>a {
+
+
+}
+.account {
+    display: flex;
+    flex-direction: column;
+    /*background: lightgray;*/
+    margin-right: 5em ;
+}
+
+.account a {
+    /*flex: 1 1 100%;*/
+}
+
+
+.account li {
+    padding: 0;
+}
+
+
+footer {
+    background: #63483b;
+    display: flex;
+    justify-content: space-between;
+}
+
+.media-footer {
+    padding: 2em;
+    margin-left: 5em ;
+}
+
+.media-footer img {
+    height: 5em;
+    width: auto;
+}
+
+.media-footer p {
+    color: white;
+}
+
+
+.footer-right ul li a h3 {
+    color: white;
+    opacity: 100%;
+    margin-bottom: 1em;
+}
+
+.footer-right ul li:nth-of-type(1) a {
+    opacity: 100%;
+}
+
+.footer-right {
+    display: flex;
+    padding: 1em;
+    margin: 1em;
+    margin-right: 10em;
+    gap: 8em;
+}
+
+.footer-right ul li {
+    list-style: none;
+
+}
+.footer-right ul li a{
+    text-decoration: none;
+    color: white;
+    opacity: 50%;
+    text-align: center;
+}
+
+
